@@ -1,0 +1,13 @@
+
+@use 'header';
+@use 'main';
+@use 'footer';
+@use 'fonts';
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    font-family: fonts.$main-font;
+}
